@@ -1,0 +1,22 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateRestuarant($id: ID, $name: String, $city: String) {
+  onCreateRestuarant(id: $id, name: $name, city: $city) {
+    id
+    name
+    city
+  }
+}
+subscription OnUpdateRestuarant($id: ID, $name: String, $city: String) {
+  onUpdateRestuarant(id: $id, name: $name, city: $city) {
+    id
+    name
+    city
+  }
+}
+subscription OnDeleteRestuarant($id: ID, $name: String, $city: String) {
+  onDeleteRestuarant(id: $id, name: $name, city: $city) {
+    id
+    name
+    city
+  }
+}

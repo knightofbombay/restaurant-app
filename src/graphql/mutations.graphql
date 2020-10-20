@@ -1,0 +1,22 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateRestuarant($input: CreateRestuarantInput!) {
+  createRestuarant(input: $input) {
+    id
+    name
+    city
+  }
+}
+mutation UpdateRestuarant($input: UpdateRestuarantInput!) {
+  updateRestuarant(input: $input) {
+    id
+    name
+    city
+  }
+}
+mutation DeleteRestuarant($input: DeleteRestuarantInput!) {
+  deleteRestuarant(input: $input) {
+    id
+    name
+    city
+  }
+}
